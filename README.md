@@ -104,6 +104,6 @@ Antes de realizar o Delta Share é necessário a configuração do ambiente. O p
 <img src="images/28.png"/>
 7.3 Agora vamos criar nosso primeiro Share e para isso temos que criar um notebook em SQL
 <img src="images/29.png"/>
-7.4 os comandos para realizar o Delta Share está no notebook delta_share dentro desse repositório. O notebook está comentado para explicar o passo a passo
+7.4 Os comandos para realizar o Delta Share estarão no arquivo SQL delta_share dentro desse repositório. O arquivo SQL está comentado para explicar o passo a passo
 7.5 Antes de copiar os comandos para o notebbok Databricks é necessário mudar a linguagem para SQL
 <img src="images/30.png"/>
