@@ -76,17 +76,34 @@ Antes de realizar o Delta Share é necessário a configuração do ambiente. O p
 <img src="images/19.png"/>
 5.7 Dar um nome para seu metastore, escolher uma região, seguir o tutorial que está na parte do ADLS Gen 2 path (nome_do_container@nome_storege_account.dfs.core.windows.net/nome_do_metastore), na parte do Access Connector ID temos que colocar o ID que salvamos no tópico 3.3. Agora é só clicar em Create.
 <img src="images/20.png"/>
-5.8 Se aparecer a seguinte caixa podemos clciar em force create
+5.8 Se aparecer a seguinte caixa podemos clicar em force create
 <img src="images/21.png"/>
 5.9 Associar o metastore com o worspace que criamos
 <img src="images/22.png"/>
-5.10 Aparecerá uma mensagem para hbilitarmos o Unity Catalog e podemos clicar em enable
+5.10 Aparecerá uma mensagem para habilitarmos o Unity Catalog e podemos clicar em enable
 <img src="images/23.png"/>
 
-## 6. Databricks Delta Share
+## 6. Habilitar Databricks Delta Share
 
 
 6.1 Dentro do workspace do Databricks clicar em seu nome e escolher a opção Manage Account
 <img src="images/18.png"/>
 6.2 Acessar o metastore e clicar nele
-<img src="images/19.png"/>
+<img src="images/24.png"/>
+6.3 Selecionar na seção Delta Sharing a opção Enable Delta Sharing to allow a Databricks user to share data outside their organization
+<img src="images/25.png"/>
+6.4 Vai aparecer uma caixa para habilitar o Delta Sharing, nessa parte você pode selecionar Set expiration ou não isso depende se quer determinar o tempo de vida do token do Delta Share ou não. Escolhendo a sua opção é só clicar em Enable.
+<img src="images/26.png"/>
+
+## 7. Delta Share
+
+
+7.1 Antes de fazer o Delta Share precisamos criar um Cluster e para cria-lo é necessário acessar o workspace do Databricks e clicar em Compute e em Create Compute
+<img src="images/27.png"/>
+7.2 Para criar é só copiar as opções da imagem
+<img src="images/28.png"/>
+7.3 Agora vamos criar nosso primeiro Share e para isso temos que criar um notebook em SQL
+<img src="images/29.png"/>
+7.4 os comandos para realizar o Delta Share está no notebook delta_share dentro desse repositório. O notebook está comentado para explicar o passo a passo
+7.5 Antes de copiar os comandos para o notebbok Databricks é necessário mudar a linguagem para SQL
+<img src="images/30.png"/>
