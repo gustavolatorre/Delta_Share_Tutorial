@@ -21,15 +21,15 @@ Antes de realizar o Delta Share é necessário a configuração do ambiente. O p
 
 1.   Login na Microsoft Azure
 2.   Criação Storage Account:
-- Primeiro clicar em Create a resource
+2.1 Primeiro clicar em Create a resource
 <img src="images/1.png"/>
-> Depois clicar em Storage
+2.2 Depois clicar em Storage
 <img src="images/2.png"/>
-> Selecionar create em Storage account
+2.3 Selecionar create em Storage account
 <img src="images/3.png"/>
-> Agora escolhemos a Subscrition, Resource group (Pode ser uma que você já tenha ou crie uma nova), o Storage account name, Region e a Redundancy (aconselho selecionar a LRS para baratear) e logo em seguida clicar em Next: Advanced.
+2.4 Agora escolhemos a Subscrition, Resource group (Pode ser uma que você já tenha ou crie uma nova), o Storage account name, Region e a Redundancy (aconselho selecionar a LRS para baratear) e logo em seguida clicar em Next: Advanced.
 <img src="images/4.png"/>
-> Na página Advanced temos que selecionar a opção em Hierarchical Namespace e após selecionar podemos clicar em Review
+2.5 Na página Advanced temos que selecionar a opção em Hierarchical Namespace e após selecionar podemos clicar em Review
 <img src="images/5.png"/>
-> Na página de review verificamos se está tudo certo e casoe steja podemos finalizar com o botão Create para criar o Storage account.
+2.6 Na página de review verificamos se está tudo certo e casoe steja podemos finalizar com o botão Create para criar o Storage account.
 <img src="images/6.png"/>
