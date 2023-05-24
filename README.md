@@ -21,7 +21,7 @@ Antes de realizar o Delta Share é necessário a configuração do ambiente. O p
 
 1.   Login na Microsoft Azure
 2.   Criação Storage Account:
-> Primeiro clicar em Create a resource
+- Primeiro clicar em Create a resource
 <img src="images/1.png"/>
 > Depois clicar em Storage
 <img src="images/2.png"/>
