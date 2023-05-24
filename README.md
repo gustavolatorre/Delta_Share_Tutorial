@@ -19,9 +19,8 @@ Há três componentes no Compartilhamento Delta:
 Antes de realizar o Delta Share é necessário a configuração do ambiente. O processo de criação do ambiente será feito na provedor de serviços cloud Microsoft Azure.
  
 
-1.   Login na Microsoft Azure
-2.   Criação Storage Account:
-
+## 1. Login na Microsoft Azure
+## 2. Criação Storage Account:
 
 2.1 Primeiro clicar em Create a resource
 <img src="images/1.png"/>
